@@ -1,10 +1,210 @@
-body{
-  background-color: #1C5A83;
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
+:root {
+  --bg: gray;
+  --text: black;
+  --accent: red;
 }
+
+body.dark { 
+  /*filter: invert(1) hue-rotate(200deg);*/
+  --bg: black;
+  --text: white;
+  --accent: cyan;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  transition: 0.3s;
+  font-family: Arial;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+
+
+
+
+
+
+/* === NAV BAR ===*/
+
+/*just because its a cool comment it does not mean its ai u dummkopf*/
+
+
+
+nav {
+  position: sticky;
+  top: 10px;
+  z-index: 1000; 
+}
+
+.nav_bar {
+  position: sticky;
+  top: 10px;
+  overflow: visible;
+  background: rgba(255, 255, 255, 0.6);
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 30px;
+  margin-top: 10px;
+  width: 70vw;
+  height: 6vh;
+  display: flex;
+  align-items:center;
+  /* justify-content: ; */
+  padding: 10px 20px;
+  backdrop-filter: blur(10px);
+}
+
+
+/*
+ *doesent have purpose YET
+ *
+ *
+.home_nav{
+  color:black;
+  size: 30px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.home_nav:hover {
+  size: 30px;
+  color: purple;
+  transition: 0.4s;
+}  */
+
+.logo{
+  width: 4vw;
+  height: 6vh;
+  border-radius: 40%;
+  margin-right:auto;
+  padding: 0px;
+}
+
+
+
+/*about nav text */
+.about_nav{
+  margin-left: 20px;
+  color:black;
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.2s ease;
+}
+
+.about_nav:hover {
+  font-size: 22px;
+  color: purple;
+  transition: 0.2s;
+}
+
+
+
+
+/* contact*/
+.contact_nav{
+  margin-left: 20px;
+  color:black;
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+.contact_nav:hover {
+  font-size: 22px;
+  color: purple;
+  transition: 0.2s;
+}
+
+
+
+
+/* pricing */
+.pricing_nav{
+  margin-left: 20px;
+  color:black;
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.2s ease;
+}
+
+.pricing_nav:hover {
+  font-size: 22px;
+  color: purple;
+  transition: 0.2s;
+}
+
+
+
+.profile_img{
+  width: 50px;
+  height: 50px;
+  margin-left: auto;
+  border-radius: 40%;
+  margin-left:;
+  padding: 0px;
+}
+
+.profile_nav{
+
+  margin-left: auto;
+  
+  color:black;
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+
+h2{
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: 900;
+  color: black;
+  padding: 0px;
+}
+
+
+/*=== NAV BAR END ===*/
+
+/*endless abyss */
+
+/* === FOOTER ===*/
+
+.footer {
+  margin-top:100vh;
+  background: #bbbbbb;
+  opacity: 0.7;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 30px;
+  width: 70vw;
+  height: 6vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.meme{
+  text-size: 10px;
+}
+
+
+
+
+
+
+
+
+
 
 
 
