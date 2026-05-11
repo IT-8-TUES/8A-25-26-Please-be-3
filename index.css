@@ -9,10 +9,15 @@
 .wrapper_main{
   display: flex;
   align-items: center; 
-  justify-content: space-between; 
-  padding: 50px;
+  justify-content: space-evenly;
+  padding: 10px;
   gap: 20px;
-  min-height: 80vh; 
+  min-height: 60vh; 
+
+}
+
+.main_text {
+  flex: 1;
 }
 
 /*DARK MODE*/
@@ -37,7 +42,14 @@ body {
   padding: 0px;
 }
 
+/*=== MAIN ===*/
 
+.headline_text{
+  margin-top: 75px;
+  text-align: center;
+  padding: 0px;
+  font-size: 36px;
+}
 
 .marquee {
   width: 100%;
@@ -123,7 +135,7 @@ nav {
 
 .nav_bar {
   position: sticky;
-  top: 10px;
+  top: 4px;
   width: min(90vw, 1200px);
   min-height: 60px;
   display: flex;
